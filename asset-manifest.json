@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MobX-Projects/static/css/main.a3e72eaf.css",
+    "main.js": "/MobX-Projects/static/js/main.bb4161d7.js",
+    "index.html": "/MobX-Projects/index.html",
+    "main.a3e72eaf.css.map": "/MobX-Projects/static/css/main.a3e72eaf.css.map",
+    "main.bb4161d7.js.map": "/MobX-Projects/static/js/main.bb4161d7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3e72eaf.css",
+    "static/js/main.bb4161d7.js"
+  ]
+}
