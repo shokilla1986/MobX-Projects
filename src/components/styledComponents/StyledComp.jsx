@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Console from "./Console";
 import Flex from "./Flex";
 import Title from "./Title";
 
@@ -17,6 +18,7 @@ const StyledComp = () => {
       <Flex justify={"center"}>
         <Title color={"green"}>children children</Title>
       </Flex>
+      <Console />
     </StyledWrapper>
   );
 };
