@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Button from "./Button";
 import Console from "./Console";
 import Flex from "./Flex";
 import Title from "./Title";
@@ -16,9 +17,12 @@ const StyledComp = () => {
   return (
     <StyledWrapper>
       <Flex justify={"center"}>
-        <Title color={"green"}>children children</Title>
+        <Title color={"green"}>Изучаю Styled Components </Title>
       </Flex>
-      <Console />
+      <Flex direction={"column"}>
+        <Console />
+        <Button align={"flex-end"}>Отправить</Button>
+      </Flex>
     </StyledWrapper>
   );
 };
