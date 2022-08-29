@@ -19,8 +19,8 @@ const StyledComp = () => {
       <Flex justify={"center"}>
         <Title color={"green"}>Изучаю Styled Components </Title>
       </Flex>
-      <Flex direction={"column"}>
-        <Console />
+      <Flex direction={"column"} margin={"10px 0"}>
+        <Console color={"green"} />
         {/* варианты передачи пропсов и стилей */}
         {/* <Button primary color={"red"} background={"green"} align={"flex-end"}> */}
         <Button color="green" align={"flex-end"}>

@@ -9,7 +9,7 @@ const rotateAnimation = keyframes`
     transform: rotateZ(360deg)
 }
 `;
-
+//с помощью attrs можно задать дефолтные пропсы для компонента
 const StyledButton = styled.button.attrs((props) => ({
   outlined: true,
 }))`
