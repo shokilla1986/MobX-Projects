@@ -30,8 +30,14 @@ const StyledButton = styled.button`
     `}
 `;
 
+//маштабирование стилей компонента на основе наследования
+const LargeButton = styled(StyledButton)`
+  font-size: 32px;
+`;
+
 const Button = (props) => {
   return <StyledButton {...props} />;
+  //   return <LargeButton {...props} />;
 };
 
 export default Button;
