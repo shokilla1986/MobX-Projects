@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Flex from "./Flex";
 import Title from "./Title";
 
 const StyledWrapper = styled.div`
@@ -13,7 +14,9 @@ const StyledWrapper = styled.div`
 const StyledComp = () => {
   return (
     <StyledWrapper>
-      <Title color={"green"}>children children</Title>
+      <Flex justify={"center"}>
+        <Title color={"green"}>children children</Title>
+      </Flex>
     </StyledWrapper>
   );
 };
