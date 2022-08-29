@@ -23,7 +23,7 @@ const StyledComp = () => {
         <Console />
         {/* варианты передачи пропсов и стилей */}
         {/* <Button primary color={"red"} background={"green"} align={"flex-end"}> */}
-        <Button outlined color="green" align={"flex-end"}>
+        <Button color="green" align={"flex-end"}>
           Отправить
         </Button>
       </Flex>
